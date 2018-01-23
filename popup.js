@@ -1,0 +1,1 @@
+// this extention does not use any JavaScript at this time
