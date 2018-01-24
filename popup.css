@@ -23,7 +23,7 @@ a:link, a:visited {
 }
 
 img {
-  width: 30px;
+  width: 60px;
 }
 
 .modal-header {
@@ -46,12 +46,12 @@ img {
 }
 
 .logo-icon {
-  vertical-align: text-bottom;
+  vertical-align: top;
   margin-right: 12px;
 }
 
 .version {
-  color: gold;
+  color: #000;
   font-size: 18px;
 }
 
@@ -74,4 +74,8 @@ img {
 .flex .fa {
   font-size: 40px;
   color: gold;
+}
+
+.mcdm {
+  width: 200px;
 }
