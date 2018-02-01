@@ -1,4 +1,4 @@
-# traversy-launcher
+# MCDM-Launcher
 chrome extension 'launcher' project
 
 built by following the Traversy Media tutorial
