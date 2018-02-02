@@ -5,16 +5,16 @@ html, body {
   margin: 0;
   min-height: 180px;
   padding: 0;
-  width: 315px;
+  width: 400px;
 }
 
-h1 {
+/* h1 {
   font-family: 'Menlo', monospace;
   font-size: 22px;
   font-weight: 400;
   margin: 0;
   color:gold;
-}
+} */
 
 a:link, a:visited {
   color: #000;
@@ -22,13 +22,17 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-img {
-  width: 50px;
-}
+/* img {
+  width: 75px;
+} */
 
 .modal-header {
   align-items: center;
   border-bottom: 0.5px solid #000;
+}
+
+.mcdm {
+  width: 125%;
 }
 
 .modal-content {
@@ -43,12 +47,18 @@ img {
 }
 
 .logo {
+  margin: 0;
   padding: 16px;
 }
 
 .logo-icon {
+  width: 75px;
   vertical-align: top;
   margin-right: 12px;
+}
+
+.mcdm {
+  width: 260px; /* 268px max */
 }
 
 .version {
@@ -75,8 +85,4 @@ img {
 .flex .fa {
   font-size: 60px;
   color: gold;
-}
-
-.mcdm {
-  width: 200px;
 }
