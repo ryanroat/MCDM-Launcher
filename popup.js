@@ -6,7 +6,8 @@ function phrasePick() {
   phrases = [
     'Hey everybody, Matt Colville here.',
     'You are the DM your group needs.',
-    'D&D is the most fun you<br>can have with your brain.'
+    'D&D is the most fun you can have with your brain.'
+    /* 'D&D is the most fun you<br>can have with your brain.' */
   ];
 
   return phrases [rando(3) - 1];
