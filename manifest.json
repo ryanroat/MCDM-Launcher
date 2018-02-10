@@ -2,11 +2,12 @@
   "manifest_version": 2,
   "name": "MCDM Launcher",
   "description": "Hey everybody, Matt Colville here.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "icons": {"128": "icon_128.png"},
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  "content_security_policy": "script-src 'self' https://use.fontawesome.com/releases/v5.0.6/js/all.js; object-src 'self'",
   "permissions": ["activeTab"]
 }
